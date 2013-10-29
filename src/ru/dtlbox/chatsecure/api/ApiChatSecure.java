@@ -41,7 +41,5 @@ public class ApiChatSecure extends RequestHandler {
         } else {
             listener.onError(RequestListener.E_API_CONNECTION, "response is empty");
         }
-
-        listener.onRegistrationSuccess(response, response);
 	}
 }
